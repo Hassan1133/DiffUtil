@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/programmingIcon"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/recycler_text_bg"
+        android:textColor="@color/white"
+        android:text="J"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/programmingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/programmingIcon"
+        android:text="Java"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
